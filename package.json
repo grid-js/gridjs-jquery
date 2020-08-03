@@ -1,0 +1,62 @@
+{
+  "name": "gridjs-jquery",
+  "version": "1.0.0",
+  "description": "jQuery wrapper for Grid.js",
+  "main": "dist/gridjs.production.min.js",
+  "module": "dist/gridjs.production.es.min.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/*"
+  ],
+  "scripts": {
+    "clean": "rimraf coverage dist tmp",
+    "build": "rollup -c",
+    "build:watch": "rollup -c --watch",
+    "lint": "eslint . --ext .ts,.tsx",
+    "test": "jest --coverage",
+    "test:watch": "jest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/grid-js/gridjs-jquery.git"
+  },
+  "keywords": [
+    "gridjs",
+    "grid",
+    "table"
+  ],
+  "author": "Afshin Mehrabani",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/grid-js/gridjs-jquery/issues"
+  },
+  "homepage": "https://github.com/grid-js/gridjs-jquery#readme",
+  "peerDependencies": {
+    "jquery": ">1.11.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.7",
+    "@types/react": "^16.9.43",
+    "eslint": "~7.6.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-jest": "^23.18.2",
+    "@rollup/plugin-node-resolve": "^8.4.0",
+    "@types/jquery": "^3.5.1",
+    "jest": "~25.5.4",
+    "jquery": "^3.5.1",
+    "rimraf": "~3.0.2",
+    "rollup": "^2.23.0",
+    "rollup-plugin-sizes": "^1.0.3",
+    "rollup-plugin-terser": "^6.1.0",
+    "rollup-plugin-typescript2": "^0.27.1",
+    "source-map-loader": "^0.2.4",
+    "ts-jest": "^25.5.1",
+    "ts-loader": "^8.0.1",
+    "tslib": "^2.0.0",
+    "tsutils": "~3.17.0",
+    "typescript": "^3.9.7"
+  },
+  "dependencies": {
+    "gridjs": "^1.15.1"
+  }
+}
