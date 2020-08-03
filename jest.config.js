@@ -1,5 +1,5 @@
 module.exports = {
-  testEnvironment: 'node',
+  testEnvironment: 'jsdom',
   globals: {
     'ts-jest': {
       tsConfig: 'tsconfig.test.json'
@@ -10,9 +10,7 @@ module.exports = {
   },
   moduleFileExtensions: [
     "ts",
-    "tsx",
     "js",
-    "jsx",
     "json",
     "node",
   ],

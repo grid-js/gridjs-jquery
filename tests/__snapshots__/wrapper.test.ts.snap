@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`wrapper should render the table 1`] = `"<div id=\\"wrapper\\"><div role=\\"complementary\\" class=\\"gridjs gridjs-container gridjs-loading\\" style=\\"width: 100%;\\"><div class=\\"gridjs-loading-bar\\"></div><div class=\\"gridjs-head\\"></div><div class=\\"gridjs-wrapper\\" style=\\"width: 100%; height: auto;\\"><table role=\\"grid\\" class=\\"gridjs-table\\" style=\\"width: 100%; height: auto;\\"><tbody class=\\"gridjs-tbody\\"><tr class=\\"gridjs-tr\\"><td role=\\"alert\\" colspan=\\"0\\" class=\\"gridjs-td gridjs-message gridjs-loading\\">Loading...</td></tr></tbody></table></div><div class=\\"gridjs-footer\\"></div></div><div id=\\"gridjs-temp\\" class=\\"gridjs-temp\\"></div></div>"`;
