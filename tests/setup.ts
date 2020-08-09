@@ -1,5 +1,5 @@
-import * as wrapper from '../src/wrapper';
-import $ from 'jquery';
+import * as wrapper from "../src/wrapper";
+import $ from "jquery";
 
 // @ts-ignore
 global.$ = $;
