@@ -25,6 +25,8 @@ $("div#wrapper").Grid({
 });
 ```
 
+Live example: https://codesandbox.io/s/gridjs-jquery-jq4zf  
+
 Grid.js can also convert an HTML table. Simply select the table with jQuery
 and call `Grid`:
 
@@ -34,6 +36,8 @@ $("table#myTable").Grid();
 
 You can pass all Grid.js configs to the `Grid` function. 
 See [Grid.js Config](https://gridjs.io/docs/config) for more details.
+
+
 
 ## License
 
