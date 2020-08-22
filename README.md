@@ -4,6 +4,16 @@ JQuery wrapper for [Grid.js](https://gridjs.io/)
 
 ## Install
 
+Include jQuery and gridjs-jquery in the `<head>` tag:
+
+```html
+<script src="https://unpkg.com/jquery/dist/jquery.min.js"></script>
+<script src="https://unpkg.com/gridjs-jquery/dist/gridjs.production.min.js"></script>
+<link rel="stylesheet" type="text/css" href="https://unpkg.com/gridjs/dist/theme/mermaid.min.css" />
+```
+
+or install using NPM:
+
 ```bash
 npm install --save gridjs-jquery
 ```
