@@ -46,7 +46,7 @@
     "eslint-plugin-jest": "^23.18.2",
     "jest": "~25.5.4",
     "jquery": "^3.5.1",
-    "prettier": "~2.0.5",
+    "prettier": "~2.1.2",
     "rimraf": "~3.0.2",
     "rollup": "^2.33.2",
     "rollup-plugin-sizes": "^1.0.3",
