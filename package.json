@@ -1,6 +1,6 @@
 {
   "name": "gridjs-jquery",
-  "version": "1.16.0",
+  "version": "3.0.2",
   "description": "jQuery wrapper for Grid.js",
   "main": "dist/gridjs.production.min.js",
   "module": "dist/gridjs.production.es.min.js",
@@ -36,28 +36,28 @@
   },
   "devDependencies": {
     "@rollup/plugin-node-resolve": "^8.4.0",
-    "@types/jest": "^26.0.10",
-    "@types/jquery": "^3.5.1",
-    "@types/react": "^16.9.48",
+    "@types/jest": "^26.0.15",
+    "@types/jquery": "^3.5.4",
+    "@types/react": "^16.9.56",
     "eslint": "~7.6.0",
-    "eslint-config-prettier": "^6.11.0",
+    "eslint-config-prettier": "^6.15.0",
     "eslint-plugin-jest": "^23.18.2",
     "jest": "~25.5.4",
     "jquery": "^3.5.1",
     "prettier": "~2.0.5",
     "rimraf": "~3.0.2",
-    "rollup": "^2.26.6",
+    "rollup": "^2.33.2",
     "rollup-plugin-sizes": "^1.0.3",
     "rollup-plugin-terser": "^6.1.0",
-    "rollup-plugin-typescript2": "^0.27.2",
+    "rollup-plugin-typescript2": "^0.27.3",
     "source-map-loader": "^0.2.4",
     "ts-jest": "^25.5.1",
-    "ts-loader": "^8.0.3",
-    "tslib": "^2.0.1",
+    "ts-loader": "^8.0.11",
+    "tslib": "^2.0.3",
     "tsutils": "~3.17.0",
     "typescript": "^3.9.7"
   },
   "dependencies": {
-    "gridjs": "^1.16.0"
+    "gridjs": "^3.0.2"
   }
 }
