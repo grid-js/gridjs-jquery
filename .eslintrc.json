@@ -21,5 +21,18 @@
     "prettier",
     "prettier/@typescript-eslint"
   ],
-  "rules": {}
+  "rules": {},
+  "overrides": [
+    {
+      "files": ["src/*", "tests/*"],
+      "rules": {
+        "@typescript-eslint/triple-slash-reference": "off"
+      }
+    }, {
+      "files": ["tests/setup.ts"],
+      "rules": {
+        "@typescript-eslint/ban-ts-comment": "off"
+      }
+    }
+  ]
 }
