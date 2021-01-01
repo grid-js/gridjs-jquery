@@ -1,6 +1,6 @@
 {
   "name": "gridjs-jquery",
-  "version": "3.0.2",
+  "version": "3.2.1",
   "description": "jQuery wrapper for Grid.js",
   "main": "dist/gridjs.production.min.js",
   "module": "dist/gridjs.production.es.min.js",
