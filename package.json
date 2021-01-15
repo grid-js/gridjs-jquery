@@ -1,6 +1,6 @@
 {
   "name": "gridjs-jquery",
-  "version": "3.2.1",
+  "version": "3.2.2",
   "description": "jQuery wrapper for Grid.js",
   "main": "dist/gridjs.production.min.js",
   "module": "dist/gridjs.production.es.min.js",
@@ -60,6 +60,6 @@
     "typescript": "^3.9.7"
   },
   "dependencies": {
-    "gridjs": "^3.2.1"
+    "gridjs": "^3.2.2"
   }
 }
