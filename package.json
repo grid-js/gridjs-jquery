@@ -35,7 +35,7 @@
     "jquery": ">1.11.0"
   },
   "devDependencies": {
-    "@rollup/plugin-node-resolve": "^11.0.1",
+    "@rollup/plugin-node-resolve": "^13.0.0",
     "@types/jest": "^26.0.15",
     "@types/jquery": "^3.5.4",
     "@types/react": "^16.9.56",
