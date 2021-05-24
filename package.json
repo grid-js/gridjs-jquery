@@ -52,7 +52,7 @@
     "rollup-plugin-sizes": "^1.0.3",
     "rollup-plugin-terser": "^6.1.0",
     "rollup-plugin-typescript2": "^0.27.3",
-    "source-map-loader": "^0.2.4",
+    "source-map-loader": "^3.0.0",
     "ts-jest": "^25.5.1",
     "ts-loader": "^8.0.11",
     "tslib": "^2.0.3",
