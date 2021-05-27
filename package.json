@@ -57,7 +57,7 @@
     "ts-loader": "^8.0.11",
     "tslib": "^2.0.3",
     "tsutils": "~3.17.0",
-    "typescript": "^3.9.7"
+    "typescript": "^4.3.2"
   },
   "dependencies": {
     "gridjs": "^4.0.0"
