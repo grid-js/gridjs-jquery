@@ -60,6 +60,6 @@
     "typescript": "^3.9.7"
   },
   "dependencies": {
-    "gridjs": "^4.0.0"
+    "gridjs": "^5.0.1"
   }
 }
